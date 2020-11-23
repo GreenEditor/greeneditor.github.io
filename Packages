@@ -1,3 +1,23 @@
+Package: Ge.GreenEditor.Bypass
+Version: 0.2.12
+Architecture: iphoneos-arm
+Maintainer: GreenEditor
+Installed-Size: 616
+Depends: mobilesubstrate, preferenceloader, applist
+Filename: ./debs/Ge.GreenEditor.Bypass_0.2.12.deb
+Size: 169618
+MD5sum: 58aba8892ea9d951940398c1d9b6f96f
+SHA1: eb7f64f1687c1cf052f24c02c55397d351cff85c
+SHA256: 48e6f24f117c675ec43ac83d37bc2d23a1ac5fb5579acde963e5ca3b1e3911b9
+Section: Utilities
+Priority: optional
+Description: A light-weight but powerful bypass that works almost in every app.
+Tag: purpose::uikit, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: GreenEditor
+Depiction: https://greeneditor.github.io
+Name: GreenEditor屏蔽/防封
+Sponsor: GreenEditor
+
 Package: com.GreenEditor.afc2d-arm64
 Version: 1.1.1
 Architecture: iphoneos-arm
@@ -56,6 +76,28 @@ Depiction: https://greeneditor.github.io
 Name: AppStore+++简体中文包
 Sponsor: GreenEditor
 
+Package: com.GreenEditor.appsyncunified
+Version: 84.0
+Architecture: iphoneos-arm
+Maintainer: GreenEditor
+Installed-Size: 496
+Depends: firmware (>= 5.0), firmware (<= 14.9), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/com.GreenEditor.appsyncunified_84.0.deb
+Size: 64036
+MD5sum: ffceb666d78337f5cc2f81b3d33cefc3
+SHA1: a081b009829d56ca2d67e6875171f732a11711ae
+SHA256: e487b423ce65bc1ec45c6b87f35c1295dd4d7a68adf21ca5663617efaeadf14a
+Section: Utilities
+Description: 更新支持A12，更新支持unc0ver越狱，支持Chimera越狱，可以愉快的安装App了
+A12: 1
+Author: GreenEditor
+Depiction: https://greeneditor.github.io
+Name: AppSync Unified 关闭签名
+Sponsor: GreenEditor
+
 Package: com.GreenEditor.cydown
 Version: 7.1.1
 Architecture: iphoneos-arm
@@ -72,6 +114,27 @@ A12: 1
 Author: GreenEditor
 Depiction: https://greeneditor.github.io
 Name: CyDown破解收费插件
+Sponsor: GreenEditor
+
+Package: com.GreenEditor.filza
+Version: 3.8.1-20
+Architecture: iphoneos-arm
+Maintainer: GreenEditor
+Installed-Size: 32112
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza
+Filename: ./debs/com.GreenEditor.filza_3.8.1-20.deb
+Size: 12942260
+MD5sum: 3969f1041260ef1c9fda3a59980d9c00
+SHA1: 95d32b93bdcd2769fdeef470a13070f3677507a2
+SHA256: 03601708bb8ff3c4259df7daa74ac00af539e3da864db5a5717286b814356870
+Section: Utilities
+Description: iOS平台文件夹管理器，配合Filza File 文件管理器【破解补丁】使用，如无法激活，请用
+ iCleaner Pro删除Filza的配置文件既可
+A12: 1
+Author: GreenEditor
+Depiction: https://greeneditor.github.io
+Name: Filza文件管理器
 Sponsor: GreenEditor
 
 Package: com.GreenEditor.icleanerpropj
@@ -108,6 +171,28 @@ Section: Utilities
 Author: GreenEditor
 Depiction: https://greeneditor.github.io
 Name: 虚拟定位专家破解版
+
+Package: com.GreenEditor.newterm2
+Version: 2.4
+Architecture: iphoneos-arm
+Maintainer: GreenEditor
+Installed-Size: 6792
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.13), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm
+Replaces: ws.hbang.newterm
+Filename: ./debs/com.GreenEditor.newterm2_2.4.deb
+Size: 3201738
+MD5sum: e22ffe78ce18ef030bd28518c64ef46a
+SHA1: b5ada821a1a304852fd55882bef5ef61f74cf9f6
+SHA256: 4487803edc58cba72e73a3a780042316340e274ff256149b0fe89c62a8554d8d
+Section: Utilities
+Description: 运行在iOS上的手机终端，可以用来卸载，安装，打包deb之类的操作
+Tag: compatible::ios10, compatible::ios11, compatible::ios12
+A12: 1
+Author: GreenEditor
+Depiction: https://greeneditor.github.io
+Name: NewTerm 2命令终端
+Sponsor: GreenEditor
 
 Package: com.GreenEditor.shadow
 Version: 2.0.20
