@@ -1,1 +1,201 @@
+Package: com.GreenEditor.afc2d-arm64
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: GreenEditor
+Installed-Size: 671
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, mobilesubstrate, ldid
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: ./debs/com.GreenEditor.afc2d-arm64_1.1.1.deb
+Size: 28466
+MD5sum: 8515f6f8b3b830c09bc89481a48d2479
+SHA1: 9f4cd10ee62d538f01ecb427cdd6cb0f84521106
+SHA256: ee5dd3259931cb3c6afa1c2e487668def58ca1f2e9363aa0c29ec70285c63c0c
+Section: Utilities
+Description: 激活iOS设备PC端，所有路径访问权限。
+Tag: purpose::daemon, compatible::ios10, compatible::ios11, compatible::ios12
+A12: 1
+Author: GreenEditor
+Depiction: https://greeneditor.github.io
+Name: Apple File Conduit "2"
+Sponsor: GreenEditor
+
+Package: com.GreenEditor.appdatamanager
+Version: 1.5.3-2
+Architecture: iphoneos-arm
+Maintainer: GreenEditor
+Installed-Size: 9244
+Filename: ./debs/com.GreenEditor.appdatamanager_1.5.3-2.deb
+Size: 3670468
+MD5sum: e6c72c3a0f89379016c25ffd4b2f5d3d
+SHA1: 3d9d7c67af8e5233509a31b019ccd14425f93e08
+SHA256: 4d42937748e6aeb359d5ba0f8a6a4880acfbab06bd211f63747353702477fd83
+Section: Utilities
+Author: GreenEditor
+Depiction: https://greeneditor.github.io
+Name: Apps Manager「应用管理」
+
+Package: com.GreenEditor.appstorepluspluszh
+Version: 0.9.13-2
+Architecture: iphoneos-arm
+Maintainer: GreenEditor
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: ./debs/com.GreenEditor.appstorepluspluszh_0.9.13-2.deb
+Size: 8684
+MD5sum: b93db71713d69812edfe97459b49e71a
+SHA1: 4b87fddd4cbae9fdb6857b14522c4775d861b11f
+SHA256: 0838e208b074e5f5b740a87399e445019f21e5fd1e4ce0bd25f58e062572607b
+Section: 汉化
+Description: AppStore降级工具简体中文汉化包，需先安装AppStore降级工具。
+A12: 1
+Author: GreenEditor
+Depiction: https://greeneditor.github.io
+Name: AppStore+++简体中文包
+Sponsor: GreenEditor
+
+Package: com.GreenEditor.cydown
+Version: 7.1.1
+Architecture: iphoneos-arm
+Maintainer: GreenEditor
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Filename: ./debs/com.GreenEditor.cydown_7.1.1.deb
+Size: 4375102
+MD5sum: 188f4e46ca23ffb1745e97ef1cb0c435
+SHA1: 5b624b278de38175ce657b0f2e5d00bca2727a36
+SHA256: 36e8808925d05ff1424925ccb979d467d635f5a170375a074086a167ed37f201
+Section: Utilities
+Description: Cydia/Zebra/Installer下载增强,已完整汉化
+A12: 1
+Author: GreenEditor
+Depiction: https://greeneditor.github.io
+Name: CyDown破解收费插件
+Sponsor: GreenEditor
+
+Package: com.GreenEditor.icleanerpropj
+Version: 7.9.0k
+Architecture: iphoneos-arm
+Maintainer: GreenEditor
+Installed-Size: 16865
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner, com.exile90.icleanerpro
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/com.GreenEditor.icleanerpropj_7.9.0k.deb
+Size: 6790160
+MD5sum: 42b7c8bcb8e000411371f6a58e8edc01
+SHA1: e9aadf65c9126b0f989dd30220d8921ec4c17804
+SHA256: 08858f4ef00b997f6dd73a67038d28d388502634e74819937e553e6f59fb94cd
+Section: Utilities
+Description: iOS系统清理垃圾，禁用插件，关闭启动项目等，此版本为破解版，可能部分越狱环境无法使用，请安装正版即可
+A12: 1
+Author: GreenEditor
+Depiction: https://greeneditor.github.io
+Name: iCleaner Pro系统清理【破解版】
+Sponsor: GreenEditor
+
+Package: com.GreenEditor.locationexpert
+Version: 2.7.1
+Architecture: iphoneos-arm
+Depends: firmware (>= 6.0), mobilesubstrate, applist (>= 1.5.14), com.rpetrich.rocketbootstrap (>= 1.0.2)
+Filename: ./debs/com.GreenEditor.locationexpert_2.7.1.deb
+Size: 5056374
+MD5sum: 07c3101ecaf1b4f6ea315be79c6ffa8b
+SHA1: 7cbe45cca48a0d43e81ffaadddf8928d1d0265b5
+SHA256: 453aee579a61fc66c5336def8982a0c3a0a29efa588a950ab02ba4af0b59baa2
+Section: Utilities
+Author: GreenEditor
+Depiction: https://greeneditor.github.io
+Name: 虚拟定位专家破解版
+
+Package: com.GreenEditor.shadow
+Version: 2.0.20
+Architecture: iphoneos-arm
+Maintainer: GreenEditor
+Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common (>= 1.13.1), applist, preferenceloader, com.rpetrich.rocketbootstrap (>= 1.0.7~beta3)
+Filename: ./debs/com.GreenEditor.shadow_2.0.20.deb
+Size: 253310
+MD5sum: e7ef2468730081efd82bc60e94e2ca12
+SHA1: c1c0afde1dbf2551bac6f4e0f0645e6b7d9c920b
+SHA256: d0816639439a8ac7dbc3c36c6c38e00082d3b6161f6ee7ae8e9946df90dd9ece
+Section: Utilities
+Description: 轻量级通用越狱检测，已完整汉化
+A12: 1
+Author: GreenEditor
+Depiction: https://greeneditor.github.io
+Name: Shadow 屏蔽越狱检测
+Sponsor: GreenEditor
+
+Package: com.GreenEditor.xkfilza
+Version: 0.0.1-23
+Architecture: iphoneos-arm
+Maintainer: GreenEditor
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: ./debs/com.GreenEditor.xkfilza_0.0.1-23.deb
+Size: 5790
+MD5sum: 8eed4f132a4076addc5c14ff2ad3c2c9
+SHA1: 6d8e21af866b2bfee4f60c18694c8bbfdfea7753
+SHA256: 05441d494b84ff2ec821614a6f88ff2a87e8fadc0ee4ed879e8d3002cc9e1733
+Section: Utilities
+Description: 功能强大的文件管理软件，此补丁搭配官方正版使用
+A12: 1
+Author: GreenEditor
+Depiction: https://greeneditor.github.io
+Name: Filza File 文件管理器【破解补丁】
+Sponsor: GreenEditor
+
+Package: com.Greeneditor.appstoreplus
+Version: 0.9.13-2
+Architecture: iphoneos-arm
+Maintainer: Greeneditor
+Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Filename: ./debs/com.Greeneditor.appstoreplus_0.9.13-2.deb
+Size: 680254
+MD5sum: 099a9251e95e7bd78bfe4237f980fdd7
+SHA1: 4ff2c40c6c7f3b56fc80c11bf69802f459a9a6cc
+SHA256: 5dee00a264e55e45443082e808b1d96d53da2adf0d1c5a2880094801e127f2cf
+Section: Utilities
+Description: App Store应用降级，支持解除200M下载限制<br>开启无视200M下载具体操作如下<br>安装完成之后进入商店 按住头像<br>弹出设置界面，勾选3G/4G即可
+A12: 1
+Author: GreenEditor
+Depiction: https://greeneditor.github.io
+Name: AppStore降级工具
+Sponsor: Greeneditor
+
+Package: com.Greeneditor.crackerxi
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: GreenEditor
+Depends: firmware (>= 11.0), ldid (>=2.0)
+Filename: ./debs/com.GreeneEditor.crackerxi_1.1.4.deb
+Size: 318884
+MD5sum: c0f7e3172588e3b2ac94aa17c7a2ec29
+SHA1: 16e7e0b9e7a7e236b4b3caa7820203ae3cde5b7e
+SHA256: 354c112cf3e53ea12747803625354f6d9f30dc354bf7eb045a2ffeb46631234d
+Section: Utilities
+Description: iosApp砸壳工具,普通用户可用于导出App
+ 如出现打开“CrackerXI+”闪退,即表明此应用未正确联网,至于如何联网，请移步百度
+A12: 1
+Author: GreenEditor
+Depiction: https://greeneditor.github.io
+Name: CrackerXI+Electra/Chimera「砸壳工具」
+
+Package: wget
+Version: 1.20.3-1
+Architecture: iphoneos-arm
+Maintainer: GreenEditor <862333953@qq.com>
+Installed-Size: 1112
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: gettext, libssl1.1.1, pcre2
+Filename: ./debs/wget_1.20.3-1_iphoneos-arm.deb
+Size: 265228
+MD5sum: c2533fa7b5c9b39012f356d598538833
+SHA1: 7408b3644399119f53563f112ed8b9767a9e41bf
+SHA256: 00f2e9a6149662237c1dac02cce5948d672415a2da2563b05f7f52a9b271ac39
+Section: Utilities
+Priority: important
+Description: simple HTTP file transfer client
+Depiction: https://greeneditor.github.io
 
